@@ -12,7 +12,7 @@ source:
     sha256: {{ sha256 }}
 
 build:
-    number: 0
+    number: 1
 
 requirements:
     build:
@@ -25,12 +25,12 @@ requirements:
         - python
         - coin3d
         - soqt
-        - qt 5.6
+        - qt
         - colorama
     run:
         - python
         - coin3d
-        - qt 5.6
+        - qt
         - pyside2
         - soqt
 
