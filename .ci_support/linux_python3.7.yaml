@@ -1,5 +1,5 @@
 channel_sources:
-- freecad qt4,conda-forge,defaults
+- freecad/label/qt4,conda-forge,defaults
 channel_targets:
 - freecad qt4
 cxx_compiler:
