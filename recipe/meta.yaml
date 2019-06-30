@@ -26,20 +26,13 @@ requirements:
     host:
         - python
         - coin3d
-        - soqt
-        - qt
-        - colorama
     run:
         - python
         - coin3d
-        - qt
-        - pyside2
-        - soqt
 
 test:
     imports:
         - pivy.coin
-        - pivy.gui.soqt
 
 about:
     home: https://github.com/FreeCAD/pivy
