@@ -1,2 +1,6 @@
 appveyor:
-  secure: {BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1}
+  secure: {BINSTAR_TOKEN: HJ+NXrvUtfFXeOuC8d+a6rEDBCVuklRzAe600/St3wvCc5yuE3mYmoDSMXkAmUu0}
+
+provider:
+  osx: circle
+  linux: circle
