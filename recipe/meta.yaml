@@ -27,6 +27,7 @@ requirements:
     host:
         - python
         - coin3d
+        - colorama
     run:
         - python
         - coin3d
