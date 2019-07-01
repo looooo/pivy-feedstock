@@ -1,0 +1,6 @@
+channel_sources:
+- freecad/label/qt4,conda-forge,defaults
+channel_targets:
+- freecad qt4
+python:
+- 3.6
