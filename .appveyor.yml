@@ -10,7 +10,7 @@ environment:
     secure: HJ+NXrvUtfFXeOuC8d+a6rEDBCVuklRzAe600/St3wvCc5yuE3mYmoDSMXkAmUu0
 
   matrix:
-    - CONFIG: win_cxx_compilervs2015python3.7
+    - CONFIG: win_
       CONDA_INSTALL_LOCN: C:\Miniconda36-x64
 
 
