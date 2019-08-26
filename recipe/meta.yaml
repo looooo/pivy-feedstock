@@ -10,11 +10,9 @@ source:
     fn: {{ name }}.tar.gz
     url: https://github.com/FreeCAD/pivy/archive/{{ version }}.tar.gz
     sha256: {{ sha256 }}
-    patches:
-        - c++17.patch
 
 build:
-    number: 3
+    number: 4
 
 requirements:
     build:
