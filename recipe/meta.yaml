@@ -1,5 +1,5 @@
 {% set name = "pivy" %}
-{% set version = "0.6.5" %}
+{% set version = "0.6.6-dev" %}
 {% set sha256 = "16f2e339e5c59a6438266abe491013a20f53267e596850efad1559564a2c1719" %}
 
 package:
@@ -8,8 +8,8 @@ package:
 
 source:
     fn: {{ name }}.tar.gz
-    url: https://github.com/FreeCAD/pivy/archive/{{ version }}.tar.gz
-    sha256: {{ sha256 }}
+    git_url: https://github.com/FreeCAD/pivy/archive/{{ version }}.tar.gz
+    git_tag: master
 
 build:
     number: 0

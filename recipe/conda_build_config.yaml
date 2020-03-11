@@ -1,2 +1,4 @@
-vc:
-  - 14
+channel_sources:
+- freecad,conda-forge,defaults
+channel_targets:
+- freecad dev
