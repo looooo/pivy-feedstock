@@ -7,7 +7,6 @@ package:
     version: {{ version }}
 
 source:
-    fn: {{ name }}.tar.gz
     git_url: https://github.com/FreeCAD/pivy
     git_tag: master
 
